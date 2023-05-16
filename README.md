@@ -7,7 +7,9 @@ Fixing when u are already deleted the file before
 
 #if there are running
 
-```kill -9 <Your PID>```
+```
+kill -9 <Your PID>
+```
 
 #check if there still run or not
 ps -ef | grep neo4j
