@@ -2,7 +2,8 @@
 Fixing when u are already deleted the file before
 
 #checking if there any running proccess in server
-copyCodeBlock('ps -ef | grep neo4j')
+
+```ps -ef | grep neo4j```
 
 #if there are running
 
@@ -10,3 +11,9 @@ copyCodeBlock('ps -ef | grep neo4j')
 
 #check if there still run or not
 ps -ef | grep neo4j
+
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+```
