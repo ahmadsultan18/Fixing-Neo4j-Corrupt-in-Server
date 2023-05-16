@@ -2,7 +2,7 @@
 Fixing when u are already deleted the file before
 
 #checking if there any running proccess in server
-ps -ef | grep neo4j
+copyCodeBlock('ps -ef | grep neo4j')
 
 #if there are running
 
