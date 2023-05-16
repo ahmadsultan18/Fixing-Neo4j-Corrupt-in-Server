@@ -3,7 +3,9 @@ Fixing when u are already deleted the file before
 
 #checking if there any running proccess in server
 
-```ps -ef | grep neo4j```
+```
+ps -ef | grep neo4j
+```
 
 #if there are running
 
@@ -12,10 +14,6 @@ kill -9 <Your PID>
 ```
 
 #check if there still run or not
-ps -ef | grep neo4j
-
 ```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
+ps -ef | grep neo4j
 ```
