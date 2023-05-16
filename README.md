@@ -13,7 +13,7 @@ ps -ef | grep neo4j
 kill -9 <Your PID>
 ```
 
-#check if there still run or not
+#check if the process still run or not
 ```
 ps -ef | grep neo4j
 ```
